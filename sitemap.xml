@@ -5,13 +5,13 @@
        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>https://alfahumana.immosystem.com.mx/</loc>
+		<loc>https://alfahumana.com.mx/</loc>
 		<lastmod>2017-09-13T17:53:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>https://alfahumana.immosystem.com.mx/index.php</loc>
+		<loc>https://alfahumana.com.mx/index.php</loc>
 		<lastmod>2017-09-13T17:53:04+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.50</priority>

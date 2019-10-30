@@ -79,11 +79,11 @@
 						<!-- BEGIN COPYRIGHT SOCIAL NETWORKS -->
 						<ul class="social-networks" id="footer_social" style="float:left; padding-right:20px;">
 							<li><h3> Comparte: </h3></li>
-							<li><a data-toggle="tooltip" data-placement="top" title="Facebook" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://alfahumana.immosystem.com.mx/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a data-toggle="tooltip" data-placement="top" title="Twitter"  class="twitter" href="https://twitter.com/intent/tweet?text=https://alfahumana.immosystem.com.mx/"><i class="fa fa-twitter"></i></a></li>
-							<li><a data-toggle="tooltip" data-placement="top" title="Google Plus" class="gmas" href="https://plus.google.com/share?url=https://alfahumana.immosystem.com.mx/"><i class="fa fa-google-plus"></i></a></li>
-							<li><a data-toggle="tooltip" data-placement="top" title="Linkedin" class="linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://alfahumana.immosystem.com.mx/"><i class="fa fa-linkedin"></i></a></li>						
-							<li><a data-toggle="tooltip" data-placement="top" title="Pinterest" class="pinterest" :href="'https://www.pinterest.com.mx/pin/create/button/?url=https://alfahumana.immosystem.com.mx/&media=http://agent.immosystem.com.mx/'+logo+'&description=Venta y renta de casas y más : https://alfahumana.immosystem.com.mx/'" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+							<li><a data-toggle="tooltip" data-placement="top" title="Facebook" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://alfahumana.com.mx/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a data-toggle="tooltip" data-placement="top" title="Twitter"  class="twitter" href="https://twitter.com/intent/tweet?text=https://alfahumana.com.mx/"><i class="fa fa-twitter"></i></a></li>
+							<li><a data-toggle="tooltip" data-placement="top" title="Google Plus" class="gmas" href="https://plus.google.com/share?url=https://alfahumana.com.mx/"><i class="fa fa-google-plus"></i></a></li>
+							<li><a data-toggle="tooltip" data-placement="top" title="Linkedin" class="linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://alfahumana.com.mx/"><i class="fa fa-linkedin"></i></a></li>						
+							<li><a data-toggle="tooltip" data-placement="top" title="Pinterest" class="pinterest" :href="'https://www.pinterest.com.mx/pin/create/button/?url=https://alfahumana.com.mx/&media=http://agent.immosystem.com.mx/'+logo+'&description=Venta y renta de casas y más : https://alfahumana.com.mx/'" target="_blank"><i class="fa fa-pinterest"></i></a></li>
 						</ul>	
 						<!-- END COPYRIGHT SOCIAL NETWORKS -->													
 					</div>

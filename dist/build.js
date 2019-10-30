@@ -16860,7 +16860,7 @@ __WEBPACK_IMPORTED_MODULE_4_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_5_vue
 
             //Datos para informacion por propiedad
 
-            urlSite: 'https://alfahumana.immosystem.com.mx/',
+            urlSite: 'https://alfahumana.com.mx/',
 
             company: '',
 
@@ -17289,7 +17289,7 @@ __WEBPACK_IMPORTED_MODULE_4_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_5_vue
       message: '',
       /* Datos para correo electronico */
       //Datos para informacion por mensaje
-      urlSite: 'https://alfahumana.immosystem.com.mx/',
+      urlSite: 'https://alfahumana.com.mx/',
       company: '',
       companyId: '',
 
@@ -17664,7 +17664,7 @@ __WEBPACK_IMPORTED_MODULE_4_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_5_vue
       /* Datos para correo electronico */
 
       //Datos para informacion por mensaje
-      urlSite: 'https://alfahumana.immosystem.com.mx/',
+      urlSite: 'https://alfahumana.com.mx/',
       company: '',
       companyId: '',
 
@@ -52933,7 +52933,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Header_vue__ = __webpack_require__(30);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2494c676_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5a2a92cb_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__ = __webpack_require__(133);
 function injectStyle (ssrContext) {
   __webpack_require__(131)
 }
@@ -52948,12 +52948,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-2494c676"
+var __vue_scopeId__ = "data-v-5a2a92cb"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Header_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2494c676_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5a2a92cb_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Header_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -52974,7 +52974,7 @@ var content = __webpack_require__(132);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("05bcaf09", content, true, {});
+var update = __webpack_require__(2)("123b614d", content, true, {});
 
 /***/ }),
 /* 132 */
@@ -52985,7 +52985,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".nav-logo>img[data-v-2494c676]{margin-top:-15px;width:auto;height:140%}.nav-logo[data-v-2494c676]{padding:10px}.nav-logo>b[data-v-2494c676]{color:#000;font-size:20px;font-weight:400;margin-top:20px}", ""]);
+exports.push([module.i, ".nav-logo>img[data-v-5a2a92cb]{margin-top:-15px;width:auto;height:140%}.nav-logo[data-v-5a2a92cb]{padding:10px}.nav-logo>b[data-v-5a2a92cb]{color:#000;font-size:20px;font-weight:400;margin-top:20px}", ""]);
 
 // exports
 
@@ -52995,7 +52995,7 @@ exports.push([module.i, ".nav-logo>img[data-v-2494c676]{margin-top:-15px;width:a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{attrs:{"id":"header"}},[_c('div',{attrs:{"id":"top-bar"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_c('ul',{attrs:{"id":"top-info"}},[_c('li',[_c('a',{attrs:{"href":'tel:+52'+_vm.phone1}},[_vm._v("Teléfono: "+_vm._s(_vm.phone1))])]),_vm._v(" "),(_vm.email!='0')?_c('li',[_c('a',{attrs:{"href":'mailto:'+_vm.email}},[_vm._v("Correo eletrónico: "+_vm._s(_vm.email))])]):_vm._e()])])])])]),_vm._v(" "),_c('div',{attrs:{"id":"nav-section"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_c('router-link',{staticClass:"nav-logo",staticStyle:{"text-align":"center"},attrs:{"to":"/"}},[(_vm.logo !=0)?_c('img',{attrs:{"src":'http://agent.immosystem.com.mx/'+_vm.logo,"alt":_vm.company}}):_c('b',[_vm._v(" "+_vm._s(_vm.company)+" ")])]),_vm._v(" "),_c('nav',{staticClass:"navbar"},[_vm._m(0),_vm._v(" "),_c('ul',{staticClass:"nav navbar-nav"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("Inicio")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nosotros"}},[_vm._v("Nosotros")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/propiedades"}},[_vm._v("Propiedades")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/contacto"}},[_vm._v("Contacto")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nuestro-equipo"}},[_vm._v("Nuestro equipo")])],1)])])],1)])])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{attrs:{"id":"header"}},[_c('div',{attrs:{"id":"top-bar"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_c('ul',{attrs:{"id":"top-info"}},[_c('li',[_c('a',{attrs:{"href":'tel:+52'+_vm.phone1}},[_vm._v("Teléfono: "+_vm._s(_vm.phone1))])]),_vm._v(" "),(_vm.email!='0')?_c('li',[_c('a',{attrs:{"href":'mailto:'+_vm.email}},[_vm._v("Correo electrónico: "+_vm._s(_vm.email))])]):_vm._e()])])])])]),_vm._v(" "),_c('div',{attrs:{"id":"nav-section"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_c('router-link',{staticClass:"nav-logo",staticStyle:{"text-align":"center"},attrs:{"to":"/"}},[(_vm.logo !=0)?_c('img',{attrs:{"src":'http://agent.immosystem.com.mx/'+_vm.logo,"alt":_vm.company}}):_c('b',[_vm._v(" "+_vm._s(_vm.company)+" ")])]),_vm._v(" "),_c('nav',{staticClass:"navbar"},[_vm._m(0),_vm._v(" "),_c('ul',{staticClass:"nav navbar-nav"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("Inicio")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nosotros"}},[_vm._v("Nosotros")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/propiedades"}},[_vm._v("Propiedades")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/contacto"}},[_vm._v("Contacto")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nuestro-equipo"}},[_vm._v("Nuestro equipo")])],1)])])],1)])])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{attrs:{"id":"nav-mobile-btn"}},[_c('i',{staticClass:"fa fa-bars"})])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -53007,7 +53007,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Footer_vue__ = __webpack_require__(31);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_44d1a7b6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7d1fae39_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__ = __webpack_require__(137);
 function injectStyle (ssrContext) {
   __webpack_require__(135)
 }
@@ -53022,12 +53022,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-44d1a7b6"
+var __vue_scopeId__ = "data-v-7d1fae39"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Footer_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_44d1a7b6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7d1fae39_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Footer_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -53048,7 +53048,7 @@ var content = __webpack_require__(136);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("62c8d91e", content, true, {});
+var update = __webpack_require__(2)("49e288f4", content, true, {});
 
 /***/ }),
 /* 136 */
@@ -53059,7 +53059,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".contact-links[data-v-44d1a7b6]{font-size:inherit;text-transform:none}.footer-logo img[data-v-44d1a7b6]{margin-top:20%}.footer-logo b[data-v-44d1a7b6]{color:#000;font-size:20px;font-weight:400}.footer_contact[data-v-44d1a7b6]{margin:10px 0}", ""]);
+exports.push([module.i, ".contact-links[data-v-7d1fae39]{font-size:inherit;text-transform:none}.footer-logo img[data-v-7d1fae39]{margin-top:20%}.footer-logo b[data-v-7d1fae39]{color:#000;font-size:20px;font-weight:400}.footer_contact[data-v-7d1fae39]{margin:10px 0}", ""]);
 
 // exports
 
@@ -53069,8 +53069,8 @@ exports.push([module.i, ".contact-links[data-v-44d1a7b6]{font-size:inherit;text-
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{attrs:{"id":"footer"}},[_c('div',{staticClass:"container",attrs:{"id":"footer-top"}},[_c('div',{staticClass:"row"},[_c('br'),_vm._v(" "),_c('div',{staticClass:"block col-sm-4",staticStyle:{"text-align":"center"}},[_c('router-link',{staticClass:"footer-logo",attrs:{"to":"/"}},[(_vm.logo!=0)?_c('img',{attrs:{"src":'http://agent.immosystem.com.mx/'+_vm.logo,"alt":_vm.company}}):_c('b',[_vm._v(_vm._s(_vm.company))])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('br')],1),_vm._v(" "),_c('div',{staticClass:"block col-sm-4"},[_c('h3',[_vm._v("Información de Contacto")]),_vm._v(" "),_c('ul',{staticClass:"footer-contacts"},[(_vm.address!='0')?_c('li',[_c('i',{staticClass:"fa fa-map-marker"}),_vm._v(" "+_vm._s(_vm.address))]):_vm._e(),_vm._v(" "),(_vm.phone1!='0')?_c('li',[_c('i',{staticClass:"fa fa-phone"}),_c('a',{attrs:{"href":'tel:+52'+_vm.phone1}},[_vm._v(_vm._s(_vm.phone1))])]):_vm._e(),_vm._v(" "),(_vm.email!='0')?_c('li',[_c('i',{staticClass:"fa fa-envelope"}),_vm._v(" "),_c('a',{attrs:{"href":'mailto:'+_vm.email}},[_vm._v(_vm._s(_vm.email))])]):_vm._e()])]),_vm._v(" "),_c('div',{staticClass:"block col-sm-4"},[_c('h3',[_vm._v("Menú")]),_vm._v(" "),_c('ul',{staticClass:"footer-links"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("Inicio")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nosotros"}},[_vm._v("Nosotros")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/propiedades"}},[_vm._v("Propiedades")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/contacto"}},[_vm._v("Contacto")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nuestro-equipo"}},[_vm._v("Nuestro equipo")])],1),_vm._v(" "),_vm._m(0)])])]),_vm._v(" "),_c('div',{staticClass:"dadFace"},[_c('ul',{staticClass:"social-networks",attrs:{"id":"footer_social"}},[(_vm.fb!='0' || _vm.tw!='0' || _vm.gmas!='0' || _vm.linkedin!='0' || _vm.youtube!='0' || _vm.skype!='0' || _vm.pinterest!='0' )?_c('li',[_vm._m(1)]):_vm._e(),_vm._v(" "),(_vm.fb!='0')?_c('li',[_c('a',{staticClass:"facebook",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Facebook","href":_vm.fb,"target":"_blank"}},[_c('i',{staticClass:"fa fa-facebook"})])]):_vm._e(),_vm._v(" "),(_vm.tw!='0')?_c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Twitter","href":_vm.tw}},[_c('i',{staticClass:"fa fa-twitter"})])]):_vm._e(),_vm._v(" "),(_vm.gmas!='0')?_c('li',[_c('a',{staticClass:"gmas",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Google Plus","href":_vm.gmas}},[_c('i',{staticClass:"fa fa-google-plus"})])]):_vm._e(),_vm._v(" "),(_vm.linkedin!='0')?_c('li',[_c('a',{staticClass:"linkedin",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Linkedin","href":_vm.linkedin}},[_c('i',{staticClass:"fa fa-linkedin"})])]):_vm._e(),_vm._v(" "),(_vm.youtube!='0')?_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Youtube","href":_vm.youtube}},[_c('i',{staticClass:"fa fa-youtube"})])]):_vm._e(),_vm._v(" "),(_vm.skype != '0')?_c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Skype","href":'skype:'+_vm.skype,"target":"_blank"}},[_c('i',{staticClass:"fa fa-skype"})])]):_vm._e(),_vm._v(" "),(_vm.pinterest != '0')?_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Pinterest","href":_vm.pinterest}},[_c('i',{staticClass:"fa fa-pinterest"})])]):_vm._e()])]),_vm._v(" "),_c('br')]),_vm._v(" "),_c('div',{attrs:{"id":"copyright"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_vm._v("\n\t\t\t\t\t"+_vm._s(_vm.company)+" "),_c('sup',[_vm._v("©")]),_vm._v("  2019 Todos los derechos reservados.  "),_vm._m(2),_vm._v(" "),_c('ul',{staticClass:"social-networks",staticStyle:{"float":"left","padding-right":"20px"},attrs:{"id":"footer_social"}},[_vm._m(3),_vm._v(" "),_vm._m(4),_vm._v(" "),_vm._m(5),_vm._v(" "),_vm._m(6),_vm._v(" "),_vm._m(7),_vm._v(" "),_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Pinterest","href":'https://www.pinterest.com.mx/pin/create/button/?url=https://alfahumana.immosystem.com.mx/&media=http://agent.immosystem.com.mx/'+_vm.logo+'&description=Venta y renta de casas y más : https://alfahumana.immosystem.com.mx/',"target":"_blank"}},[_c('i',{staticClass:"fa fa-pinterest"})])])])])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{attrs:{"href":"http://agent.immosystem.com.mx/","target":"_blank"}},[_vm._v("Acceder a IMMO System"),_c('sup',[_vm._v("©")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h4',[_c('b',[_vm._v(" Síguenos:")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{attrs:{"href":"https://www.immosystem.com.mx/","target":"_blank"}},[_vm._v("IMMO System"),_c('sup',[_vm._v("©")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('h3',[_vm._v(" Comparte: ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"facebook",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Facebook","href":"https://www.facebook.com/sharer/sharer.php?u=https://alfahumana.immosystem.com.mx/","target":"_blank"}},[_c('i',{staticClass:"fa fa-facebook"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Twitter","href":"https://twitter.com/intent/tweet?text=https://alfahumana.immosystem.com.mx/"}},[_c('i',{staticClass:"fa fa-twitter"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"gmas",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Google Plus","href":"https://plus.google.com/share?url=https://alfahumana.immosystem.com.mx/"}},[_c('i',{staticClass:"fa fa-google-plus"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"linkedin",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Linkedin","href":"https://www.linkedin.com/sharing/share-offsite/?url=https://alfahumana.immosystem.com.mx/"}},[_c('i',{staticClass:"fa fa-linkedin"})])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{attrs:{"id":"footer"}},[_c('div',{staticClass:"container",attrs:{"id":"footer-top"}},[_c('div',{staticClass:"row"},[_c('br'),_vm._v(" "),_c('div',{staticClass:"block col-sm-4",staticStyle:{"text-align":"center"}},[_c('router-link',{staticClass:"footer-logo",attrs:{"to":"/"}},[(_vm.logo!=0)?_c('img',{attrs:{"src":'http://agent.immosystem.com.mx/'+_vm.logo,"alt":_vm.company}}):_c('b',[_vm._v(_vm._s(_vm.company))])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('br')],1),_vm._v(" "),_c('div',{staticClass:"block col-sm-4"},[_c('h3',[_vm._v("Información de Contacto")]),_vm._v(" "),_c('ul',{staticClass:"footer-contacts"},[(_vm.address!='0')?_c('li',[_c('i',{staticClass:"fa fa-map-marker"}),_vm._v(" "+_vm._s(_vm.address))]):_vm._e(),_vm._v(" "),(_vm.phone1!='0')?_c('li',[_c('i',{staticClass:"fa fa-phone"}),_c('a',{attrs:{"href":'tel:+52'+_vm.phone1}},[_vm._v(_vm._s(_vm.phone1))])]):_vm._e(),_vm._v(" "),(_vm.email!='0')?_c('li',[_c('i',{staticClass:"fa fa-envelope"}),_vm._v(" "),_c('a',{attrs:{"href":'mailto:'+_vm.email}},[_vm._v(_vm._s(_vm.email))])]):_vm._e()])]),_vm._v(" "),_c('div',{staticClass:"block col-sm-4"},[_c('h3',[_vm._v("Menú")]),_vm._v(" "),_c('ul',{staticClass:"footer-links"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("Inicio")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nosotros"}},[_vm._v("Nosotros")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/propiedades"}},[_vm._v("Propiedades")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/contacto"}},[_vm._v("Contacto")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/nuestro-equipo"}},[_vm._v("Nuestro equipo")])],1),_vm._v(" "),_vm._m(0)])])]),_vm._v(" "),_c('div',{staticClass:"dadFace"},[_c('ul',{staticClass:"social-networks",attrs:{"id":"footer_social"}},[(_vm.fb!='0' || _vm.tw!='0' || _vm.gmas!='0' || _vm.linkedin!='0' || _vm.youtube!='0' || _vm.skype!='0' || _vm.pinterest!='0' )?_c('li',[_vm._m(1)]):_vm._e(),_vm._v(" "),(_vm.fb!='0')?_c('li',[_c('a',{staticClass:"facebook",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Facebook","href":_vm.fb,"target":"_blank"}},[_c('i',{staticClass:"fa fa-facebook"})])]):_vm._e(),_vm._v(" "),(_vm.tw!='0')?_c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Twitter","href":_vm.tw}},[_c('i',{staticClass:"fa fa-twitter"})])]):_vm._e(),_vm._v(" "),(_vm.gmas!='0')?_c('li',[_c('a',{staticClass:"gmas",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Google Plus","href":_vm.gmas}},[_c('i',{staticClass:"fa fa-google-plus"})])]):_vm._e(),_vm._v(" "),(_vm.linkedin!='0')?_c('li',[_c('a',{staticClass:"linkedin",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Linkedin","href":_vm.linkedin}},[_c('i',{staticClass:"fa fa-linkedin"})])]):_vm._e(),_vm._v(" "),(_vm.youtube!='0')?_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Youtube","href":_vm.youtube}},[_c('i',{staticClass:"fa fa-youtube"})])]):_vm._e(),_vm._v(" "),(_vm.skype != '0')?_c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Skype","href":'skype:'+_vm.skype,"target":"_blank"}},[_c('i',{staticClass:"fa fa-skype"})])]):_vm._e(),_vm._v(" "),(_vm.pinterest != '0')?_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Pinterest","href":_vm.pinterest}},[_c('i',{staticClass:"fa fa-pinterest"})])]):_vm._e()])]),_vm._v(" "),_c('br')]),_vm._v(" "),_c('div',{attrs:{"id":"copyright"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-sm-12"},[_vm._v("\n\t\t\t\t\t"+_vm._s(_vm.company)+" "),_c('sup',[_vm._v("©")]),_vm._v("  2019 Todos los derechos reservados.  "),_vm._m(2),_vm._v(" "),_c('ul',{staticClass:"social-networks",staticStyle:{"float":"left","padding-right":"20px"},attrs:{"id":"footer_social"}},[_vm._m(3),_vm._v(" "),_vm._m(4),_vm._v(" "),_vm._m(5),_vm._v(" "),_vm._m(6),_vm._v(" "),_vm._m(7),_vm._v(" "),_c('li',[_c('a',{staticClass:"pinterest",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Pinterest","href":'https://www.pinterest.com.mx/pin/create/button/?url=https://alfahumana.com.mx/&media=http://agent.immosystem.com.mx/'+_vm.logo+'&description=Venta y renta de casas y más : https://alfahumana.com.mx/',"target":"_blank"}},[_c('i',{staticClass:"fa fa-pinterest"})])])])])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{attrs:{"href":"http://agent.immosystem.com.mx/","target":"_blank"}},[_vm._v("Acceder a IMMO System"),_c('sup',[_vm._v("©")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h4',[_c('b',[_vm._v(" Síguenos:")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{attrs:{"href":"https://www.immosystem.com.mx/","target":"_blank"}},[_vm._v("IMMO System"),_c('sup',[_vm._v("©")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('h3',[_vm._v(" Comparte: ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"facebook",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Facebook","href":"https://www.facebook.com/sharer/sharer.php?u=https://alfahumana.com.mx/","target":"_blank"}},[_c('i',{staticClass:"fa fa-facebook"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"twitter",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Twitter","href":"https://twitter.com/intent/tweet?text=https://alfahumana.com.mx/"}},[_c('i',{staticClass:"fa fa-twitter"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"gmas",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Google Plus","href":"https://plus.google.com/share?url=https://alfahumana.com.mx/"}},[_c('i',{staticClass:"fa fa-google-plus"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('a',{staticClass:"linkedin",attrs:{"data-toggle":"tooltip","data-placement":"top","title":"Linkedin","href":"https://www.linkedin.com/sharing/share-offsite/?url=https://alfahumana.com.mx/"}},[_c('i',{staticClass:"fa fa-linkedin"})])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -53650,7 +53650,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_PropertyDetail_vue__ = __webpack_require__(43);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_75fe12f4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_PropertyDetail_vue__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d5030baa_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_PropertyDetail_vue__ = __webpack_require__(178);
 function injectStyle (ssrContext) {
   __webpack_require__(172)
 }
@@ -53665,12 +53665,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-75fe12f4"
+var __vue_scopeId__ = "data-v-d5030baa"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_PropertyDetail_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_75fe12f4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_PropertyDetail_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d5030baa_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_PropertyDetail_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -53691,7 +53691,7 @@ var content = __webpack_require__(173);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("6c799721", content, true, {});
+var update = __webpack_require__(2)("3be4f1fb", content, true, {});
 
 /***/ }),
 /* 173 */
@@ -53702,7 +53702,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "a[data-v-75fe12f4]{text-decoration:none}pre[data-v-75fe12f4]{white-space:pre-wrap;height:auto;overflow:hidden;background:transparent;border-color:transparent;color:#000;font-family:Open Sans,sans-serif;font-size:15px;text-align:justify}.custom-dropdown[data-v-75fe12f4]{position:relative!important;display:inline-block!important;vertical-align:middle!important;margin-bottom:10px!important;width:100%}.custom-dropdown select[data-v-75fe12f4]{background-color:#fff!important;color:#74777c!important;font-size:inherit!important;padding:.5em!important;padding-right:2.5em!important;border:1px solid #74777c!important;margin:0!important;border-radius:5px!important;text-indent:.01px!important;text-overflow:\"\"!important;-webkit-appearance:button!important;width:100%!important}.custom-input input[type=text][data-v-75fe12f4]{margin-bottom:10px!important}.form-group[data-v-75fe12f4]{padding:15px}.custom-input input[type=text][data-v-75fe12f4],input[type=email][data-v-75fe12f4],input[type=tel][data-v-75fe12f4],input[type=text][data-v-75fe12f4],textarea[data-v-75fe12f4]{width:100%!important;height:60px;padding:12px 20px;margin:8px 0;display:inline-block;border:1px solid rgba(0,0,0,.555);box-sizing:border-box}@media (max-width:530px){.form-group[data-v-75fe12f4]{padding-left:40px}.custom-input input[type=text][data-v-75fe12f4]{margin-bottom:10px}.custom-input input[type=text][data-v-75fe12f4],input[type=email][data-v-75fe12f4],input[type=tel][data-v-75fe12f4],input[type=text][data-v-75fe12f4],textarea[data-v-75fe12f4]{width:100%!important;height:60px;margin:2px 0;display:inline-block;border:1px solid rgba(0,0,0,.555);box-sizing:border-box}}.card-carousel[data-v-75fe12f4]{user-select:none}.thumbnails[data-v-75fe12f4]{display:inline-flex;justify-content:space-evenly;flex-direction:row;width:100%}.thumbnail-image[data-v-75fe12f4]{display:flex;align-items:center;cursor:pointer;padding:2px}.thumbnail-image>img[data-v-75fe12f4]{width:100%;height:150px;transition:all .25s;opacity:.5}.thumbnail-image.active>img[data-v-75fe12f4],.thumbnail-image:hover>img[data-v-75fe12f4]{opacity:1;box-shadow:2px 2px 6px 1px rgba(0,0,0,.5)}.card-img[data-v-75fe12f4]{position:relative;margin-bottom:15px;background-position:50%;height:450px;background-size:contain}.card-img>img[data-v-75fe12f4]{display:block;margin:0 auto;width:100%;height:auto}.actions[data-v-75fe12f4]{font-size:2.5em;height:40px;position:absolute;top:50%;margin-top:-20px;width:100%;display:flex;align-items:center;justify-content:space-between;color:#009cde}.actions>span[data-v-75fe12f4]{cursor:pointer;transition:all .25s}.actions>span.prev[data-v-75fe12f4]{margin-left:5px}.actions>span.next[data-v-75fe12f4]{margin-right:5px}.actions>span[data-v-75fe12f4]:hover{color:#eee}.video-contain[data-v-75fe12f4]{position:relative;width:100%;height:600px}.video-contain>iframe[data-v-75fe12f4]{width:100%;height:100%}@media only screen and (max-width:991px){.video-contain[data-v-75fe12f4]{height:400px}}.whatsappButtom[data-v-75fe12f4]{margin-right:100px!important}.fbButton[data-v-75fe12f4]{float:right}#leyendaPrecios[data-v-75fe12f4]{float:right;font-size:11px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif}", ""]);
+exports.push([module.i, "a[data-v-d5030baa]{text-decoration:none}pre[data-v-d5030baa]{white-space:pre-wrap;height:auto;overflow:hidden;background:transparent;border-color:transparent;color:#000;font-family:Open Sans,sans-serif;font-size:15px;text-align:justify}.custom-dropdown[data-v-d5030baa]{position:relative!important;display:inline-block!important;vertical-align:middle!important;margin-bottom:10px!important;width:100%}.custom-dropdown select[data-v-d5030baa]{background-color:#fff!important;color:#74777c!important;font-size:inherit!important;padding:.5em!important;padding-right:2.5em!important;border:1px solid #74777c!important;margin:0!important;border-radius:5px!important;text-indent:.01px!important;text-overflow:\"\"!important;-webkit-appearance:button!important;width:100%!important}.custom-input input[type=text][data-v-d5030baa]{margin-bottom:10px!important}.form-group[data-v-d5030baa]{padding:15px}.custom-input input[type=text][data-v-d5030baa],input[type=email][data-v-d5030baa],input[type=tel][data-v-d5030baa],input[type=text][data-v-d5030baa],textarea[data-v-d5030baa]{width:100%!important;height:60px;padding:12px 20px;margin:8px 0;display:inline-block;border:1px solid rgba(0,0,0,.555);box-sizing:border-box}@media (max-width:530px){.form-group[data-v-d5030baa]{padding-left:40px}.custom-input input[type=text][data-v-d5030baa]{margin-bottom:10px}.custom-input input[type=text][data-v-d5030baa],input[type=email][data-v-d5030baa],input[type=tel][data-v-d5030baa],input[type=text][data-v-d5030baa],textarea[data-v-d5030baa]{width:100%!important;height:60px;margin:2px 0;display:inline-block;border:1px solid rgba(0,0,0,.555);box-sizing:border-box}}.card-carousel[data-v-d5030baa]{user-select:none}.thumbnails[data-v-d5030baa]{display:inline-flex;justify-content:space-evenly;flex-direction:row;width:100%}.thumbnail-image[data-v-d5030baa]{display:flex;align-items:center;cursor:pointer;padding:2px}.thumbnail-image>img[data-v-d5030baa]{width:100%;height:150px;transition:all .25s;opacity:.5}.thumbnail-image.active>img[data-v-d5030baa],.thumbnail-image:hover>img[data-v-d5030baa]{opacity:1;box-shadow:2px 2px 6px 1px rgba(0,0,0,.5)}.card-img[data-v-d5030baa]{position:relative;margin-bottom:15px;background-position:50%;height:450px;background-size:contain}.card-img>img[data-v-d5030baa]{display:block;margin:0 auto;width:100%;height:auto}.actions[data-v-d5030baa]{font-size:2.5em;height:40px;position:absolute;top:50%;margin-top:-20px;width:100%;display:flex;align-items:center;justify-content:space-between;color:#009cde}.actions>span[data-v-d5030baa]{cursor:pointer;transition:all .25s}.actions>span.prev[data-v-d5030baa]{margin-left:5px}.actions>span.next[data-v-d5030baa]{margin-right:5px}.actions>span[data-v-d5030baa]:hover{color:#eee}.video-contain[data-v-d5030baa]{position:relative;width:100%;height:600px}.video-contain>iframe[data-v-d5030baa]{width:100%;height:100%}@media only screen and (max-width:991px){.video-contain[data-v-d5030baa]{height:400px}}.whatsappButtom[data-v-d5030baa]{margin-right:100px!important}.fbButton[data-v-d5030baa]{float:right}#leyendaPrecios[data-v-d5030baa]{float:right;font-size:11px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif}", ""]);
 
 // exports
 
@@ -53798,7 +53798,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contact_vue__ = __webpack_require__(45);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_24b767ad_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_22350bca_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__ = __webpack_require__(182);
 function injectStyle (ssrContext) {
   __webpack_require__(180)
 }
@@ -53813,12 +53813,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-24b767ad"
+var __vue_scopeId__ = "data-v-22350bca"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contact_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_24b767ad_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_22350bca_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -53839,7 +53839,7 @@ var content = __webpack_require__(181);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("5fb70e3c", content, true, {});
+var update = __webpack_require__(2)("4a3f7e9a", content, true, {});
 
 /***/ }),
 /* 181 */
@@ -53850,7 +53850,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "a[data-v-24b767ad]:hover{color:inherit}", ""]);
+exports.push([module.i, "a[data-v-22350bca]:hover{color:inherit}", ""]);
 
 // exports
 
@@ -53960,7 +53960,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_OfferProperty_vue__ = __webpack_require__(48);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_53bdb3fe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_OfferProperty_vue__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f42b1a96_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_OfferProperty_vue__ = __webpack_require__(190);
 function injectStyle (ssrContext) {
   __webpack_require__(188)
 }
@@ -53975,12 +53975,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-53bdb3fe"
+var __vue_scopeId__ = "data-v-f42b1a96"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_OfferProperty_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_53bdb3fe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_OfferProperty_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f42b1a96_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_OfferProperty_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -54001,7 +54001,7 @@ var content = __webpack_require__(189);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("405a665e", content, true, {});
+var update = __webpack_require__(2)("2392d90c", content, true, {});
 
 /***/ }),
 /* 189 */
@@ -54012,7 +54012,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "a[data-v-53bdb3fe]:hover{color:inherit}", ""]);
+exports.push([module.i, "a[data-v-f42b1a96]:hover{color:inherit}", ""]);
 
 // exports
 

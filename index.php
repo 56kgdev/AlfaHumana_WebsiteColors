@@ -130,9 +130,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="utf-8">
     <meta name="viewport"           content="width=device-width, initial-scale=1">
-    <link rel="next"                href="https://alfahumana.immosystem.com.mx/nosotros/"/>
-    <link rel="next"                href="https://alfahumana.immosystem.com.mx/contacto"/>
-    <link rel="next"                href="https://alfahumana.immosystem.com.mx/propiedades"/>      
+    <link rel="next"                href="https://alfahumana.com.mx/nosotros/"/>
+    <link rel="next"                href="https://alfahumana.com.mx/contacto"/>
+    <link rel="next"                href="https://alfahumana.com.mx/propiedades"/>      
 
     <!-- Google Web Font -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:300,500,900%7COpen+Sans:400,700,400italic" rel="stylesheet" type="text/css" />

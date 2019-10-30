@@ -436,7 +436,7 @@
             
                 //Datos para informacion por propiedad
     
-                urlSite: 'https://alfahumana.immosystem.com.mx/',
+                urlSite: 'https://alfahumana.com.mx/',
     
                 company: '',
 

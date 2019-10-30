@@ -98,7 +98,7 @@
         /* Datos para correo electronico */
           
           //Datos para informacion por mensaje
-          urlSite:'https://alfahumana.immosystem.com.mx/',
+          urlSite:'https://alfahumana.com.mx/',
           company:'',		
           companyId:'',
 

@@ -9,7 +9,7 @@
 					<div class="col-sm-12">
 						<ul id="top-info">							
 							<li><a :href="'tel:+52'+phone1">Teléfono: {{phone1}}</a></li>
-							<li v-if="email!='0'"><a :href="'mailto:'+email">Correo eletrónico: {{email}}</a></li>							
+							<li v-if="email!='0'"><a :href="'mailto:'+email">Correo electrónico: {{email}}</a></li>							
 						</ul>
 					</div>
 				</div>
