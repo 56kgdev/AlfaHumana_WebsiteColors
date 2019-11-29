@@ -158,7 +158,7 @@
                               <li><a class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest" :href="'https://www.pinterest.com.mx/pin/create/button/?url='+ruta+'&media='+photos[0]+'&description='+property.webEsp" target="_blank" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                               <span class="whatsButton">
                                  <h4>Contáctanos por WhatsApp
-                                    <a class="contact-links" data-toggle="tooltip" data-placement="top" title="Contactar en WhatsApp" :href="'https://api.whatsapp.com/send?text=Buen día estoy interesado en esta propiedad: '+ruta+'&phone='+phoneCompany" target="_blank">
+                                    <a class="contact-links" data-toggle="tooltip" data-placement="top" title="Contactar en WhatsApp" :href="'https://api.whatsapp.com/send?text=Buen día estoy interesado en esta propiedad: '+ruta+'&phone=52'+phoneCompany" target="_blank">
                                        <i style="float:none; margin-left:15px;font-size:25px;line-height:40px;" class="fa fa-whatsapp"></i>
                                     </a> 
                                  </h4>										 									
@@ -170,8 +170,7 @@
                         <!-- END SHARE IN SOCIAL NETWORK --> 
 
                         <!-- BEING DESCRIPTION --> 
-                        <h1>Descripción</h1>    
-                        <hr>    
+                        <h1 class="section-title">Descripción</h1>                            
                         <div class="tabs">    
                             <ul class="nav nav-tabs">                                    
                                 <li v-if="property.webEsp != '0'">    
@@ -206,10 +205,30 @@
                             </div>    
                         </div>
                         <!-- END DESCRIPTION --> 
-                            
+
+                        <!-- BEING CHARACTERISTICS INFORMATION --> 
+                        <h1 class="section-title">CARACTERISTICAS DE LA PROPIEDAD</h1>    
+                        <div style="position:relative;">
+                            <ul class="property-features col-md-12">    
+                                <li class="col-md-6" v-if="property.direccion ">    
+                                    <i class="icon-sale-sign"></i>{{property.direccion}}    
+                                </li>
+    
+                                <li class="col-md-6" v-if="property.referenciaEsp">    
+                                    <i class="icon-house-usd"></i>{{property.referenciaEsp}}    
+                                </li>
+                                 <li class="col-md-6" v-if="property.descMuebles!=0">    
+                                    <i class="icon-rooms"></i>{{property.descMuebles}}    
+                                </li>
+    
+                                <li class="col-md-6" v-if="property.mJardin">    
+                                    <i class="icon-garden"></i>Metros de jardin: {{property.mJardin}}    
+                                </li>                                      
+                            </ul>                                                                                  
+                        </div>
+                        <!-- END CHARACTERISTICS INFORMATION -->                                         
                         <!-- BEING AMENITIES INFORMATION --> 
-                        <h1>Amenidades</h1>    
-                        <hr>
+                        <h1 class="section-title">Amenidades</h1>                            
                         <ul class="property-amenities-list col-md-3" v-if="interiors">    
                             <li v-for="(int,n) in interiors" :index="n" :key="int">    
                                 <i class="fa fa-check" style="color:#000;"></i> {{ int }}    
@@ -234,36 +253,12 @@
                             </li>
                         </ul>    
                         <br>
-                        <!-- END AMENITIES INFORMATION --> 
-
-                        <!-- BEING CHARACTERISTICS INFORMATION --> 
-                        <h1 class="section-title">CARACTERISTICAS DE LA PROPIEDAD</h1>    
-                        <div style="position:relative;">
-                            <ul class="property-features col-md-6">    
-                                <li v-if="property.direccion ">    
-                                    <i class="icon-sale-sign"></i>{{property.direccion}}    
-                                </li>
-    
-                                <li v-if="property.referenciaEsp">    
-                                    <i class="icon-house-usd"></i>{{property.referenciaEsp}}    
-                                </li>    
-                            </ul>    
-                            <ul class="property-features col-md-6">            
-                                <li v-if="property.descMuebles">    
-                                    <i class="icon-rooms"></i>{{property.descMuebles}}    
-                                </li>
-    
-                                <li v-if="property.mJardin">    
-                                    <i class="icon-garden"></i>Metros de jardin: {{property.mJardin}}    
-                                </li>    
-                            </ul>    
-                        </div>
-                        <!-- END CHARACTERISTICS INFORMATION --> 
+                        <!-- END AMENITIES INFORMATION -->                        
                         
                         <!-- BEING SERVICES INFORMATION -->    
                         <h1 v-if="property.services" class="section-title">Servicios</h1>    
-                        <ul class="property-amenities-list col-md-6" v-if="property.services">    
-                            <li v-for="(serv,n) in services" :index="n" :key="serv">    
+                        <ul class="property-amenities-list col-md-12" v-if="property.services">    
+                            <li  class="col-md-3" v-for="(serv,n) in services" :index="n" :key="serv">    
                                 <i class="fa fa-check" style="color:#000;"></i> {{ serv }}    
                             </li>    
                         </ul>

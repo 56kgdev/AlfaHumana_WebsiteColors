@@ -443,7 +443,7 @@
                                 </div>
                             </div>
 
-                            <carousel :per-page="4" :navigationEnabled="false" :scrollPerPage="true" :loop="true" :mouse-drag="true" paginationColor="#fff" paginationActiveColor="rgb(37, 60, 134)">
+                            <carousel :per-page="4" :navigationEnabled="false" :scrollPerPage="true" :loop="true" :mouse-drag="true" paginationColor="#fff" paginationActiveColor="#9d6fcc">
                                 
                                 <slide v-for="(photo, index) in  photos" :key="photo" :index="index" :class="['thumbnail-image', (activeImage == index) ? 'active' : '']" :data-index="index">
 

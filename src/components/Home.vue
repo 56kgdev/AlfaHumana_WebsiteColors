@@ -40,11 +40,11 @@
 
 
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="post-content offset-col-3 col-md-10" align="center">
+            
+            <div class="post-content col-md-offset-2 col-md-8" align="center">
                 <p class="quote">
-                    <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit,  </span>
-                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <span> Total transparencia...   Trato honesto a tu favor.</span>
+                    <br> ¡10 años de Experiencia nos avalan!
                 </p>
             </div>
         </div>                             

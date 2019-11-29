@@ -33,10 +33,10 @@
                                         <b>Nuestra Empresa </b>
                                     </h2><br>
                                      <p class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Somos una Empresa con Cimientos Sólidos, con Amplios Conocimientos del Mercado Inmobiliario, ofreciéndote servicios integrales en todo lo relacionado a los Bienes Raíces.
                                     </p>                                    
                                     <p class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Derivamos de una franquicia española y estamos en México ocupando los estados con mayor Potencial de Crecimiento y Plusvalía .. Querétaro, y Quintana Roo .Tu mejor inversión .
                                     </p>                                                                       
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                                         <b>VISION</b>
                                     </h2><br>
                                      <p class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                                        Ser la mejor opción Inmobiliaria, ofreciendo servicios integrales en Bienes Raíces; desde una Renta hasta la construcción tipo Residencial, Comercial e Industrial que brinden confianza, seguridad y Plusvalía a todos nuestros clientes.
                                     </p>
                                 </div>
                                 <div class="col-md-4">
@@ -55,16 +55,21 @@
                                         <b>MISIÓN</b>
                                     </h2><br>
                                      <p class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                                        Contribuir al desarrollo del mercado inmobiliario basados en la Honestidad y Transparencia como principios Rectores de nuestros Actos, construyendo sólidas relaciones entre clientes compradores, vendedores, proveedores, Y prestadores de servicios, con el fin de que todos alcancen sus Sueños, Metas y Objetivos Particulares
                                     </p>
                                 </div>
                                 <div class="col-md-4">
                                     <h2 class="darker-text" data-animation-direction="from-left" data-animation-delay="250">
-                                        <b>VALORES</b>
+                                        <b>SERVICIOS</b>
                                     </h2><br>
-                                     <p class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-                                    </p>
+                                     <ul class="text-darker" data-animation-direction="from-left" data-animation-delay="650">
+                                        <li>Compra</li>
+                                        <li>Venta</li>
+                                        <li>Renta</li>
+                                        <li>Créditos Bancarios / Infonavit                                        </li>
+                                        <li>Construcción habitacional, industrial y Comercial</li>
+                                        <li>Recuperación de Impuestos</li>
+                                    </ul>
                                 </div>
                             </div>
                             <br>                            
