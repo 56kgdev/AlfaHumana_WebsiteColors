@@ -228,7 +228,7 @@
                         </div>
                         <!-- END CHARACTERISTICS INFORMATION -->                                         
                         <!-- BEING AMENITIES INFORMATION --> 
-                        <h1 class="section-title">Amenidades</h1>                            
+                        <h1  v-if="interiors || exteriors || dev || maintenance"  class="section-title">Amenidades</h1>                            
                         <ul class="property-amenities-list col-md-3" v-if="interiors">    
                             <li v-for="(int,n) in interiors" :index="n" :key="int">    
                                 <i class="fa fa-check" style="color:#000;"></i> {{ int }}    
