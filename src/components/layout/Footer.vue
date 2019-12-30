@@ -139,6 +139,9 @@
 </script>
 
 <style scoped>
+	#footer{
+		background-color: #e4d8f1;
+	}
 	.contact-links {
 		font-size: inherit;
 		text-transform: none;

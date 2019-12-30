@@ -25,8 +25,9 @@
                     <div class="main col-sm-12">
                         <div class="center">
                             <br>
-                            <h2 class="section-highlight" data-animation-direction="from-left" data-animation-delay="50">{{company}}</h2>
-                            <br>
+                            <h2 class="section-highlight" data-animation-direction="from-left" data-animation-delay="50">{{company}}<br>
+                                <h4>"El lado humano de las bienes raíces"</h4>
+                            </h2>                            <br>
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="darker-text" data-animation-direction="from-left" data-animation-delay="250">

@@ -68,6 +68,9 @@
 </script>
 
 <style scoped>
+  .price{
+    background-color: #009cde !important;
+  }   
   img {
     width: 100%;
   }

@@ -358,7 +358,7 @@
   }
   
   .custom-dropdown::before {
-    background-color: #c9a5ef!important;
+    background-color: #009cde!important;
   }
   
   .custom-dropdown::after {
@@ -3040,7 +3040,8 @@ textarea{
 }
 .pattern-bg {
   position: relative;
-  background-image: url('../images/patterns/pattern1.jpg');
+  /*background-image: url('../images/patterns/pattern1.jpg');*/
+  background-color: #009cde;
   background-size: cover;
   width: 100%;
   height: 200%;
@@ -3048,7 +3049,8 @@ textarea{
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .pattern-bg {
-    background-image: url('../images/patterns/pattern1@2x.jpg');
+    background-color: #009cde;
+    /*background-image: url('../images/patterns/pattern1@2x.jpg');*/
   }
 }
 .pattern-bg:before {
@@ -5604,7 +5606,7 @@ a.tp-caption.btn-lg {
   -moz-border-radius: 4px;
   border-radius: 4px;
   clear: both;
-  color:#c9a5ef;
+  color:#009cde;
 }
 .property-topinfo .amenities {
   list-style: none;
@@ -5664,7 +5666,7 @@ a.tp-caption.btn-lg {
   position: absolute;
   top: 10px;
   left: -5px;
-  background-color: #c9a5ef;
+  background-color: #009cde;
   color: #fff;
   padding: 2px 20px 2px 10px;
   z-index: 10;

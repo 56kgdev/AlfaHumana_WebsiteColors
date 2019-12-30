@@ -20,7 +20,7 @@
 		<!-- BEGIN NAVBAR -->
 		<div id="nav-section">
 			<div class="container">
-				<div class="row" >
+				<div class="row">
 					<div class="col-sm-12">
 									
 						<router-link to="/" class="nav-logo" style="text-align:center;">
@@ -81,7 +81,10 @@
 	}
 </script>
 
-<style scoped>  
+<style scoped>
+	#nav-section{
+		background-color:#e4d8f1;
+	}
 	.nav-logo>img{
 		margin-top: -15px;
 		width: auto;
