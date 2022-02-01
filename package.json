@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material-design-icons-iconfont": "^4.0.3",
     "npm": "^6.11.1",
     "numeral": "^2.0.6",
